@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+df=pd.read_csv("C:/Users/Admin/Downloads/archive (4)/Cars93.csv")
+print(df)
+plt.scatter(df["MPG.city"],df["Horsepower"])
+plt.xlabel('MPG.city')
+plt.ylabel('Horsepower')
+plt.show()
