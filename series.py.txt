@@ -1,0 +1,12 @@
+import pandas as pd
+import numpy as np
+x=pd.Series([10,20,30,40,50])
+y=pd.Series([40,20,60,80,20])
+intersect=pd.Series(np.intersect1d(x,y))
+print(intersect)
+large=pd.Series(np.max(x))
+print(large)
+samll=pd.Series(np.min(x))
+print(samll)
+sum=pd.Series(np.sum(x))
+print(sum)
